@@ -1,19 +1,95 @@
-a {
-	color: red;
+/* GLOBAL STYLES */
+
+/* body {
+	height: 800px;
+} */
+
+html, body {
+	margin: 0;
+	padding: 0;
 }
 
-#exec-bio {
+body {
+	font-size: 62.5%;
+}
+
+h1 {
+	/* font-size: 7vw; */
+	margin-top: 0;
+	font-size: 2em;
+}
+
+a {
+	/* color: red; */
+	/* color: #ff0000; */
+	color: #f00;
+}
+
+/* #exec-bio {
 	background-color: lightgray;
+} */
+
+/* #exec-bio.alert {
+	background: red;
+} */
+
+
+ /* SOCIAL STYLES  */
+.social-link {
+	background: rgba(211, 22, 211, 0.2);
+	color: #00f;
+}
+
+
+/* HERO STYLES */
+.full-hero {
+	background-color: #c7dbfc;
+	height: 70vh;
+	width: 50vw;
+}
+
+/* BIO STYLES */
+
+.bio-wrapper {
+	/* font-size: 24px; */
 }
 
 .bio-box {
 	border: 1px solid black;
+	font-size: 1em;
+	width: 50%;
+	/* width: 200px; */
+	/* padding: 20px; */
+	/* font-size: 48px; */
+	/* margin: 10%;
+	font-size: 150%; */
 }
 
-.bio-box a {
+.bio-box h3 {
+	font-size: 1.5em;
+}
+
+.bio-copy {
+	font-size: 1em;
+	/* font-size: 150%; */
+}
+
+.bio-copy a {
 	color: green;
+	/* font-size: 0.5em; */
 }
 
+/* div {
+	border: 1px solid green;
+} */
+
+/* html{background: red;} */
+
+
+/* a {
+	color: pink;
+} */
+/* 
 .bio-boxes {
 	background-color: blue;
 }
@@ -21,3 +97,16 @@ a {
 #link-main {
 	background-color: orange;
 }
+
+.alert {
+	background: red;
+}
+
+.bio-box {
+	width: 75%;
+}
+
+.bio-box {
+	width: 50%;
+} */
+
